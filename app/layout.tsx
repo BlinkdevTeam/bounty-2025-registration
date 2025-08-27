@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Bounty Showcase 2025",
     images: [
       {
-        url: "https://bounty-2025-registration.vercel.app/", // Replace with your actual meta image path
+        url: "https://bounty-2025-registration.vercel.app/assets/bounty/meta-image.jpg", // Replace with your actual meta image path
         width: 1200,
         height: 630,
         alt: "Bounty Strategic Suppliers Showcase 2025",
@@ -41,7 +41,9 @@ export const metadata: Metadata = {
       "Bounty Strategic Suppliers Showcase 2025 | Powering Progress Through Partnership",
     description:
       "Be part of Bounty’s Strategic Suppliers Showcase 2025 — driving progress with innovation and collaboration.",
-    images: ["https://yourdomain.com/meta-image.jpg"], // Replace with your actual meta image path
+    images: [
+      "https://bounty-2025-registration.vercel.app/assets/bounty/meta-image.jpg",
+    ], // Replace with your actual meta image path
   },
 };
 
