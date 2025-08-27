@@ -252,8 +252,8 @@ export default function PersonalInfoForm() {
                               <Image
                                 src={
                                   formData.selectedEvents?.includes("event1")
-                                    ? "/assets/bounty/icons/Chicken.gif"
-                                    : "/assets/bounty/icons/Chicken.gif"
+                                    ? "/assets/bounty/icons/ChickenWhite.png"
+                                    : "/assets/bounty/icons/ChickenWhite.png"
                                 }
                                 alt="Pig Icon"
                                 width={80}
@@ -293,8 +293,8 @@ export default function PersonalInfoForm() {
                               <Image
                                 src={
                                   formData.selectedEvents?.includes("event2")
-                                    ? "/assets/bounty/icons/EGGS.gif"
-                                    : "/assets/bounty/icons/EGGS.gif"
+                                    ? "/assets/bounty/icons/eggs2_2.png"
+                                    : "/assets/bounty/icons/eggs2_2.png"
                                 }
                                 alt="Egg Icon"
                                 width={80}
