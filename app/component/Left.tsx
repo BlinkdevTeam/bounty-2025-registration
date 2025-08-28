@@ -749,7 +749,7 @@ export default function Home() {
           September 2-3, 2025
           <br />
           marquis events place, bgc, taguig
-          <br />8 : 00 am - 5 : 30 pm
+          <br />8:00 am - 5:30 pm
         </h4>
       </div>
 
