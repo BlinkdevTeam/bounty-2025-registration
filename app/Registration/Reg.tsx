@@ -576,18 +576,18 @@ export default function PersonalInfoForm() {
                     <div className="flex items-center gap-4">
                       {step > 1 && (
                         <div
-                          className="cursor-pointer w-[56px] h-[56px] flex justify-center items-center border border-[#006AD4] rounded-full"
+                          className="cursor-pointer w-[56px] h-[56px] flex justify-center items-center border border-[#EF0000] rounded-full"
                           onClick={prevStep}
                         >
-                          <IoMdArrowRoundBack className="text-[#006AD4] w-6 h-6" />
+                          <IoMdArrowRoundBack className="text-[#EF0000] w-6 h-6" />
                         </div>
                       )}
                       {step < 5 && (
                         <div
-                          className="cursor-pointer w-[56px] h-[56px] flex justify-center items-center border border-[#006AD4] rounded-full"
+                          className="cursor-pointer w-[56px] h-[56px] flex justify-center items-center border border-[#EF0000] rounded-full"
                           onClick={nextStep}
                         >
-                          <IoMdArrowRoundForward className="text-[#006AD4] w-6 h-6" />
+                          <IoMdArrowRoundForward className="text-[#EF0000] w-6 h-6" />
                         </div>
                       )}
                     </div>
@@ -597,7 +597,7 @@ export default function PersonalInfoForm() {
                         <div
                           key={i}
                           className={`w-3 h-3 rounded-full ${
-                            step - 2 === i ? "bg-blue-600" : "bg-gray-300"
+                            step - 2 === i ? "bg-[#EF0000]" : "bg-gray-300"
                           }`}
                         />
                       ))}
